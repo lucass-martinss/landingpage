@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/images/wave\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#logo {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    align-self: center;
+    width: 10vw;
+    height: 5vh;
+}
+.title> h1 {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    color: white;
+}
+.title >h1 {
+    font-size: 40px;
+}
+.title > p {
+    font-size: 22px;
+    padding-bottom: 3vh;
+}
+
+.input-email {
+    display: flex;
+    gap: 1vw;
+}
+.input-email > button {
+    font-size: 10px;
+    color: white;
+    background-color: #212326;
+    border: none;
+    border-radius: 2px;
+    width: 8vw;
+}
+input {
+    border: none;
+    border-radius: 2px;
+    height: 5vh;
+    width: 20vw;
+}
+input::placeholder {
+    padding-left: 2vw;
+    color: rgb(154, 153, 153);
+}
+#label > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 25vw;
+    padding-top: 1vh;
+    color: white;
+  font-size: 8px;
+}
+.image > img {
+    padding-top: 5vh;
+    width: 20vw;
+    height: 30vh;
+}
